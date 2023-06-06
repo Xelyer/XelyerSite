@@ -1,0 +1,67 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+paginate = "7"
+title = 'Xelyer'
+theme = "spectral"
+
+[params]
+fancyTitle = "Xelyer" # title for frontpage, may include image
+copyright = "Xelyer"
+description = 'A Simple Joke Bot for your Server!'
+startbuttonText = "Add me in your server!"
+startbuttonLink = "https://discord.com/oauth2/authorize?client_id=1111316333666254878&permissions=534723950656&scope=bot"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[params.one]
+enable = true
+title = 'About Us '
+body = '''
+Xelyerbot is a modern joke bot developed by our team. 
+It provides a fun and interactive experience for Discord communities. 
+You can check out the bot and its source code on GitHub.
+The Best Part is that it is Open Source!.
+'''
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Open Source"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Free to code"
+
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/img2.jpg"
+title = 'Simple!'
+body = 'Xelyer Uses the power of  Python'
+
+[[params.two.section]]
+img = "img/img1.jpg"
+title = 'PowerFull Jokes!'
+body = 'Xelyer Uses Joke Api as a Service.'
+
+[[params.two.section]]
+img = "img/botlogo.jpg"
+title = 'Open Source'
+body = 'Xelyer is a Open Source Project.You can add more stuffs in Xelyer'
+
+
+[params.three]
+enable = true
+title = 'Ready to Contribute?'
+body = '''
+Go to https://github.com/Xelyer To see More info!.<br> Join my Discord Server : https://discord.com/invite/CHUCjdsMnZ
+'''
