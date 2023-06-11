@@ -8,9 +8,9 @@ theme = "spectral"
 [params]
 fancyTitle = "Xelyer" # title for frontpage, may include image
 copyright = "Xelyer"
-description = 'A Simple Joke Bot for your Server!'
-startbuttonText = "Add me in your server!"
-startbuttonLink = "https://discord.com/oauth2/authorize?client_id=1111316333666254878&permissions=534723950656&scope=bot"
+description = 'A Simple Clean Joke Bot !'
+startbuttonText = "Vote me on Top.gg"
+startbuttonLink = "https://top.gg/bot/1111316333666254878"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = ["path_to_social_image_for_link_previews.jpg"]
@@ -21,7 +21,7 @@ title = "Home"
 
 [params.one]
 enable = true
-title = 'About Us '
+title = 'About The Bot  '
 body = '''
 Xelyerbot is a modern joke bot developed by our team. 
 It provides a fun and interactive experience for Discord communities. 
@@ -44,24 +44,23 @@ label = "Free to code"
 enable = true
 
 [[params.two.section]]
-img = "img/img2.jpg"
-title = 'Simple!'
-body = 'Xelyer Uses the power of  Python'
+img = "img/meme.png"
+title = 'Memes!'
+body = 'Xelyer will Give you Powerfull meme'
 
 [[params.two.section]]
-img = "img/img1.jpg"
-title = 'PowerFull Jokes!'
-body = 'Xelyer Uses Joke Api as a Service.'
-
+img = "img/github.png"
+title = 'Github Searching'
+body = 'Xelyer will search all Github Repo'
 [[params.two.section]]
-img = "img/botlogo.jpg"
-title = 'Open Source'
-body = 'Xelyer is a Open Source Project.You can add more stuffs in Xelyer'
+img = "img/joke.png"
+title = 'Jokes'
+body = 'Xelyer will Gives you Jokes!'
 
 
 [params.three]
 enable = true
-title = 'Ready to Contribute?'
+title = 'Ready to Contribute'
 body = '''
 Go to https://github.com/Xelyer To see More info!.<br> Join my Discord Server : https://discord.com/invite/CHUCjdsMnZ
 '''
